@@ -67,11 +67,11 @@ class App extends Component {
                             <span onChange={this.onChangeValue}>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <input type="radio" value="page1" name="option1" defaultChecked /> &nbsp;&nbsp;
-                                <input type="radio" value="page2" name="option2" /> &nbsp;&nbsp;
-                                <input type="radio" value="page3" name="option3" /> &nbsp;&nbsp;
-                                <input type="radio" value="page4" name="option4" /> &nbsp;&nbsp;
-                                <input type="radio" value="page5" name="option5" /> &nbsp;&nbsp;
-                                <input type="radio" value="page6" name="option6" /> &nbsp;&nbsp;
+                                <input type="radio" value="page2" name="option1" /> &nbsp;&nbsp;
+                                <input type="radio" value="page3" name="option1" /> &nbsp;&nbsp;
+                                <input type="radio" value="page4" name="option1" /> &nbsp;&nbsp;
+                                <input type="radio" value="page5" name="option1" /> &nbsp;&nbsp;
+                                <input type="radio" value="page6" name="option1" /> &nbsp;&nbsp;
                                 &nbsp;&nbsp;&nbsp;&nbsp;
                             </span>
                             <Button onClick={() => {

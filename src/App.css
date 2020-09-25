@@ -1,3 +1,49 @@
+.container {
+    width: 90%;
+}
+
+.app {
+    display: flex;
+}
+
+.main1 {
+    position: absolute;
+    left: 0;
+    top: 320px;
+    width: 350px;
+    height: 35vh;
+    border: 3px solid #73AD21;
+    background-color: yellow;
+}
+
+.main2 {
+    flex-basis: 100%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.first_column {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.second_column {
+    flex-grow: 1;
+    height: 100vh;
+    top: 0;
+    position: sticky;
+    background-color: steelblue;
+}
+.third_column {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: steelblue;
+}
+
 .App {
   text-align: center;
 }
