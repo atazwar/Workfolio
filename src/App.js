@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from './Footer';
+import { SignUpPopupComponent, LoginPopupComponent } from './SignUp-Login';
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer/>
+      <SignUpPopupComponent />
+      {/* <LoginPopupComponent /> */}
     </div>
   );
 }
