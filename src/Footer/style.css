@@ -23,7 +23,7 @@
 }
 
 .Footer-Logo-Icon {
-  margin: 10px;
+  width: 120px;
 }
 
 .Footer-Logo-Title {
@@ -45,9 +45,23 @@
 
 .Footer-Social-Section {
   margin: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .Footer-Send-Email-Section {
   display: flex;
   flex-direction: row;
+}
+
+.Social-Icon {
+  width: 24x;
+  height: 24px;
+}
+
+.Send-Icon {
+  width: 24x;
+  height: 24px;
+  margin: 5px;
 }

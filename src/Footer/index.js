@@ -1,12 +1,20 @@
 import React from 'react';
 
+import fb_logo from '../Assets/facebook.png';
+import tw_logo from '../Assets/twitter.png';
+import ig_logo from '../Assets/instagram.png';
+import wc_logo from '../Assets/wechat.png';
+import in_logo from '../Assets/linkedin.png';
+import ic_send from '../Assets/send.png';
+import workfolio_logo from '../Assets/workfolio_logo.png';
+
 import './style.css';
 
 // Create Footer
 const Footer = () => (
   <div className="Footer">
     <div className="Footer-Logo-Section">
-      <img className="Footer-Logo-Icon" src="" alt="Logo"/>
+      <img className="Footer-Logo-Icon" src={workfolio_logo} alt="Logo"/>
       <a className="Footer-Logo-Title">WORKFOLIO</a>
     </div>
     <div className="Footer-Category">
@@ -40,16 +48,16 @@ const Footer = () => (
     <div className="Footer-Category">
       <a className="Footer-Category-Parent">Follow us</a>
       <div className="Footer-Social-Section">
-        <img src="" alt="fb" />
-        <img src="" alt="tw" />
-        <img src="" alt="ig" />
-        <img src="" alt="wc" />
-        <img src="" alt="in" />
+        <img className="Social-Icon" src={fb_logo} alt="fb" />
+        <img className="Social-Icon" src={tw_logo} alt="tw" />
+        <img className="Social-Icon" src={ig_logo} alt="ig" />
+        <img className="Social-Icon" src={wc_logo} alt="wc" />
+        <img className="Social-Icon" src={in_logo} alt="in" />
       </div>
       <a className="Footer-Category-Parent">Subscribe Now:</a>
       <div className="Footer-Send-Email-Section">
         <input type="email" placeholder="Email"/>
-        <img src="" alt="Send" />
+        <img className="Send-Icon" src={ic_send} alt="Send" />
       </div>
     </div>
   </div>
