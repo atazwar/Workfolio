@@ -39,7 +39,7 @@ const SignUpPopupComponent = () => (
   </div>
 );
 
-export {
+export default {
   LoginPopupComponent, 
   SignUpPopupComponent
 }

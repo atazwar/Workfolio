@@ -1,0 +1,29 @@
+.layout {
+    padding-top: 3.25%;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    /* border: 2px solid red; */
+}
+
+.card {
+    /* padding-top: 56.25%; */
+    padding-top: 35%;
+    /* background: #303035; */
+    /* border-radius: 8px; */
+    position: relative;
+    /* border: 2px solid blue; */
+}
+
+.test {
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+    ul {
+       grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+}

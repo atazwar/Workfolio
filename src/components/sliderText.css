@@ -1,0 +1,17 @@
+.wrapper {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    /* border: 5px solid black; */
+}
+
+.inner {
+    width: 100%;
+    margin: auto;
+    padding: 40px 55px 45px 55px;
+    transition: all .3s;
+}
+
+h2 {
+    font-size: 5em;
+}
