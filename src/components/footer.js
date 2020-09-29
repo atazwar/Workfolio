@@ -1,12 +1,12 @@
 import React from 'react';
 
-import fb_logo from '../Assets/facebook.png';
-import tw_logo from '../Assets/twitter.png';
-import ig_logo from '../Assets/instagram.png';
-import wc_logo from '../Assets/wechat.png';
-import in_logo from '../Assets/linkedin.png';
-import ic_send from '../Assets/send.png';
-import workfolio_logo from '../Assets/workfolio_logo.png';
+import fb_logo from '../assets/facebook.png';
+import tw_logo from '../assets/twitter.png';
+import ig_logo from '../assets/instagram.png';
+import wc_logo from '../assets/wechat.png';
+import in_logo from '../assets/linkedin.png';
+import ic_send from '../assets/send.png';
+import workfolio_logo from '../assets/workfolio_logo.png';
 
 import './footer.css';
 
