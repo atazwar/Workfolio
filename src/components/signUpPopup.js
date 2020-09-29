@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import './signup_login.css';
 
-function SignUpPopup() {
+function SignUpPopup(props) {
     return (
-        <div className="overlay">
-            <div className="Popup Signup-popup">
+        <div className="overlay" onClick={() => props.history.goBack()}>
+            <div className="Popup Signup-popup" onClick={(e) => { e.stopPropagation() }}>
                 <p className="Login-Title">Sign-Up Now</p>
                 <div className="Login-Input-Section">
                     <a className="Login-Input-Title">Full Name:</a>

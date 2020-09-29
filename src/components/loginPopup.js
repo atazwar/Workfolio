@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './signup_login.css';
 
 // Create Login Popup
-function LoginPopup () {
+function LoginPopup (props) {
     let [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
@@ -13,8 +13,8 @@ function LoginPopup () {
     })
 
     return (
-        <div className="overlay">
-            <div className="Popup Login-popup">
+        <div className="overlay" onClick={() => props.history.goBack()}>
+            <div className="Popup Login-popup" onClick={(e) => { e.stopPropagation() }}>
                 <p className="Login-Title">Login</p>
                 <div className="Login-Input-Section">
                     <a className="Login-Input-Title">Username</a>
