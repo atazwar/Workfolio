@@ -1,0 +1,15 @@
+.rounded{
+    width: 426px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.rounded img {
+
+    border-radius: 50%;
+}
+
+.PopUpWindow{
+    position: relative;
+    margin: auto;
+}

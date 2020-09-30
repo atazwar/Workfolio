@@ -13,10 +13,10 @@ class Option1 extends Component {
                     </Button>{' '}
                 </div>
 
-                <div className="text-primary text-center">
-                    <i className="fab fa-aws fa-3x"></i><span>&nbsp;&nbsp;&nbsp;</span>
-                    <i className="fab fa-php fa-5x"></i><span>&nbsp;&nbsp;&nbsp;</span>
-                    <i className="fab fa-joomla fa-3x"></i>
+                <div className="text-center">
+                    <i className="fab fa-aws fa-3x text-white"></i><span>&nbsp;&nbsp;&nbsp;</span>
+                    <i className="fab fa-php fa-5x text-warning"></i><span>&nbsp;&nbsp;&nbsp;</span>
+                    <i className="fab fa-joomla fa-3x text-danger"></i>
                 </div>
                 <div></div>
             </div>

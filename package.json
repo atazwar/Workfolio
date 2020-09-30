@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.0.4",
     "@testing-library/user-event": "^12.1.6",
     "react": "*",
+    "react-activity-feed": "^0.10.2",
     "react-bootstrap": "^1.3.0",
     "react-dom": "*",
     "react-mdl": "^2.1.0",

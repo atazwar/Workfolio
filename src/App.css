@@ -7,19 +7,18 @@
 }
 
 .main1 {
-    position: absolute;
+    flex-basis: 40%;
+    position: relative;
     left: 0;
-    top: 320px;
-    width: 350px;
+    top: 0px;
+    width: 420px;
     height: 35vh;
-    border: 3px solid #73AD21;
-    background-color: yellow;
+    background-color: #6E6ED6;
 }
 
 .main2 {
-    flex-basis: 100%;
+    flex-basis: 60%;
     display: flex;
-    height: 100vh;
     flex-direction: column;
     background-color: lightgrey;
 }
@@ -28,6 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    background-color: #6E6ED6;
 }
 
 .second_column {
@@ -35,13 +35,12 @@
     height: 100vh;
     top: 0;
     position: sticky;
-    background-color: steelblue;
+    background-color: #6E6ED6;
 }
 .third_column {
     flex-basis: 40%;
     display: flex;
     flex-direction: column;
-    background-color: steelblue;
 }
 
 .App {

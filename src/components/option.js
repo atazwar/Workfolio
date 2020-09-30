@@ -7,6 +7,8 @@ import Option3 from './option3';
 import Option4 from './option4';
 import Option5 from './option5';
 import Option6 from './option6';
+import Option7 from './option7';
+import Option8 from './option8';
 
 const Option = () => (
   <Switch>
@@ -17,6 +19,8 @@ const Option = () => (
     <Route path="/option4" component={Option4} />
     <Route path="/option5" component={Option5} />
     <Route path="/option6" component={Option6} />
+    <Route path="/option7" component={Option7} />
+    <Route path="/option8" component={Option8} />
   </Switch>
 )
 
