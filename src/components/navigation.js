@@ -12,16 +12,16 @@ class Navigation extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
                             <Nav.Link href="/home">Home</Nav.Link>
-                            <Nav.Link href="/alerts">Alerts</Nav.Link>
-                            <Nav.Link href="/contact">Contact Us</Nav.Link>
-                            <NavDropdown title="My Profile" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Log Out</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">My Profile</NavDropdown.Item>
-                            </NavDropdown>
                             <Form inline>
                                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                                 <Button variant="outline-success">Search</Button>
                             </Form>
+                            <Nav.Link href="/alerts">Alerts</Nav.Link>
+                            <Nav.Link href="/contact">Contact Us</Nav.Link>
+                            <NavDropdown title="My Profile" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1">Log Out</NavDropdown.Item>
+                                <NavDropdown.Item href="/myprofile">My Profile</NavDropdown.Item>
+                            </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

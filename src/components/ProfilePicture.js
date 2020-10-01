@@ -2,15 +2,15 @@ import React, { Component } from "react";
 import "./ProfilePicture.css"
 import pro4 from "./pro4.jpg"
 
- 
+
 class ProfilePicture extends Component {
-    
+
 
     ClosePop = () => {
         this.setState({
             seen: false,
         }
-        
+
         );
         console.log(this.state.seen);
     };
@@ -18,7 +18,7 @@ class ProfilePicture extends Component {
     open = () => {
         return;
     }
-    
+
 
     render() {
 

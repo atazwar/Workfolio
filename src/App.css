@@ -6,20 +6,29 @@
     display: flex;
 }
 
+.main0 {
+    flex-basis: 100%;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
 .main1 {
-    flex-basis: 40%;
+    flex-basis: 30%;
     position: relative;
     left: 0;
     top: 0px;
     width: 420px;
-    height: 35vh;
+    min-height: 35vh;
+    justify-content: center;
     background-color: #6E6ED6;
 }
 
 .main2 {
-    flex-basis: 60%;
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+    justify-content: center;
     background-color: lightgrey;
 }
 
@@ -27,7 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    background-color: #6E6ED6;
+    background-color: transparent;
 }
 
 .second_column {
