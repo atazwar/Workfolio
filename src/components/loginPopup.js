@@ -27,7 +27,7 @@ function LoginPopup (props) {
                     <a>Remember me</a>
                 </div>
                 <button className="Login-Button">Login</button>
-                <p>Don't have account?<Link>Click here.</Link></p>
+                <p>Don't have account?<Link to="">Click here.</Link></p>
             </div>
         </div>
     )

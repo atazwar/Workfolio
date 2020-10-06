@@ -19,7 +19,7 @@ function Footer() {
             <a className="Footer-Logo-Title">WORKFOLIO</a>
             </div>
             <div className="Footer-Category">
-            <a className="Footer-Category-Parent">Services</a>
+            <a className="Footer-Category-Parent">SERVICES</a>
             <a className="Footer-Category-Child">Promotion</a>
             <a className="Footer-Category-Child">WorkCoin</a>
             <a className="Footer-Category-Child">Branding</a>
@@ -46,7 +46,7 @@ function Footer() {
             <a className="Footer-Category-Child">Goals</a>
             <a className="Footer-Category-Child">Future Projects</a>
             </div>
-            <div className="Footer-Category">
+            <div className="Footer-Category-Social">
             <a className="Footer-Category-Parent">Follow us</a>
             <div className="Footer-Social-Section">
                 <img className="Social-Icon" src={fb_logo} alt="fb" />

@@ -22,6 +22,15 @@
   width: 200px;
 }
 
+.Footer-Category-Social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-right: 20px;
+  width: 200px;
+}
+
 .Footer-Logo-Icon {
   width: 120px;
 }
@@ -64,4 +73,10 @@
   width: 24x;
   height: 24px;
   margin: 5px;
+}
+
+@media screen and (max-width: 400px) { 
+  .Footer-Category {
+    display: none;
+  }
 }
