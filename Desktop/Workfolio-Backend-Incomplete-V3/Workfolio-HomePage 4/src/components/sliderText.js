@@ -1,0 +1,17 @@
+import React from 'react'
+import './sliderText.css'
+import { Link } from "react-router-dom"
+
+const SliderText = ( {heading, sub_heading, isButton, button_text, path} ) => {
+    return (
+        <div className="wrapper">
+            <div className="inner">
+                <h2>{heading}</h2>
+                <h3>{sub_heading}</h3>
+                {isButton? (<Link to={path}><button className="cta">{button_text}</button></Link>) : (<></>)}
+            </div>
+        </div>
+    )
+}
+
+export default SliderText;
